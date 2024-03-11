@@ -32,7 +32,15 @@ function Header() {
 
   return (
     <div className="header">
-      <div className="main-hd"></div>
+      <div className="main-hd">
+        <img src="" alt="" />
+        <div>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+        </div>
+      </div>
       <div className="clockdown">
         <img src="" alt="" />
 
@@ -55,8 +63,6 @@ function Header() {
               }`}{" "}
           para acabar la oferta!!!
         </h2>
-
-        <p>Hola</p>
       </div>
     </div>
   );
