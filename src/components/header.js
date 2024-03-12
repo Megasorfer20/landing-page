@@ -35,10 +35,10 @@ function Header() {
       <div className="main-hd">
         <img src="" alt="" />
         <div>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
+            <button>Producto</button>
+            <button>Descripción</button>
+            <button>Compranos</button>
+            <button>Reseñas</button>
         </div>
       </div>
       <div className="clockdown">
