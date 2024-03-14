@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 function Header() {
   const calculateTimeLeft = () => {
     const actualDate = new Date();
-    console.log(actualDate.getDate());
     const nextDayDate = new Date(
       actualDate.getFullYear(),
       actualDate.getMonth(),
